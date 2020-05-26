@@ -13,15 +13,15 @@ int main(int argc, char** argv) {
 	int a;
 	char nameopen;
 	
-	cout<<"1. Вывод списка экипажей."<<endl;
-	cout<<"2. Назначить экипажи на смену."<<endl;
-	cout<<"3. Просмотреть информацию о занятости экипажей."<<endl;
-	cout<<"4. Принять вызов."<<endl;
-	cout<<"5. Просмотреть историю вызовов."<<endl;
-	cout<<"6. Измененить список экипажа."<<endl;
-	cout<<"7. "<<endl;// Прошло N часов.
-	cout<<"8. Выход"<<endl;
-	cout<<"Выберите действие :"<<endl;
+	cout<<"1. vivod spiska ekip."<<endl;
+	cout<<"2. naznachit ekip na smenu."<<endl;
+	cout<<"3. info pro zaniatost ekip."<<endl;
+	cout<<"4. priniat' vizov."<<endl;
+	cout<<"5. istoria vizovov."<<endl;
+	cout<<"6. izmenenie spuiska ekip."<<endl;
+	cout<<"7. "<<endl;// proshlo N chasov.
+	cout<<"8. vihod"<<endl;
+	cout<<"Viberete deistv :"<<endl;
 	
 	
 	
@@ -67,20 +67,20 @@ int main(int argc, char** argv) {
 			default:
 			{
 				cout<<endl;
-				cout<<"Некорректный ввод, попробуйте снова."<<endl;
+				cout<<"nekorektnii vvod, povtorite."<<endl;
 			}	
 			
 		}		
 		
-		cout<<"1"<<endl;
-		cout<<"2"<<endl;
-		cout<<"3"<<endl;
-		cout<<"4"<<endl;
-		cout<<"5"<<endl;
-		cout<<"6"<<endl;
-		cout<<"7"<<endl;
-		cout<<"8"<<endl;
-		cout<<"Выберите действие :"<<endl;
+		cout<<"1 vivod spiska ekip"<<endl;
+		cout<<"2 naznachit ekip na smenu.<<endl;
+		cout<<"3 info pro zaniatost ekip."<<endl;
+		cout<<"4 priniat' vizov."<<endl;
+		cout<<"5 istoria vizovov."<<endl;
+		cout<<"6 izmenenie spuiska ekip. "<<endl;
+		cout<<"7"<<endl; // proshlo N chasov.
+		cout<<"8 vihod"<<endl;
+		cout<<"Viberete deistv :"<<endl;
 		
 		
 	}while(a!=8);
