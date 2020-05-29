@@ -1,7 +1,7 @@
 #include <iostream>
+#include <fstream>
 #include "Crew.h"
 #include "Call.h"
-#include "CrewList.cpp"
 #include "Crew.cpp"
 
 
@@ -22,18 +22,19 @@ int main(int argc, char** argv) {
 	cout<<"7. "<<endl;// proshlo N chasov.
 	cout<<"8. vihod"<<endl;
 	cout<<"Viberete deistv :"<<endl;
-	
+	Crew CL;
 	
 	
 	
 	do {
 		
 		cin>>a;
+		system("cls");
 		switch(a)
 		{
 			case(1):
 			{
-				CrewList();
+			 	CL.CrewList();
 				break;
 			}	
 			case(2):
@@ -73,7 +74,7 @@ int main(int argc, char** argv) {
 		}		
 		
 		cout<<"1 vivod spiska ekip"<<endl;
-		cout<<"2 naznachit ekip na smenu.<<endl;
+		cout<<"2 naznachit ekip na smenu."<<endl;
 		cout<<"3 info pro zaniatost ekip."<<endl;
 		cout<<"4 priniat' vizov."<<endl;
 		cout<<"5 istoria vizovov."<<endl;

@@ -5,13 +5,15 @@ class Crew
 {
 	public:
 		Crew();
-	//	~Crew();
+		~Crew();
+		int CrewList();//
+	
+	protected:
 		char *doctor;
 		char *paramedic;
 		char *driver;
 		int TimeShiftH;
 		int TimeShiftM;
-	protected:
 	
 		
 };
